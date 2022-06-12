@@ -1,0 +1,83 @@
+{"intents": [
+        {"tag": "1",
+         "patterns": ["Hi","Is anyone there?", "Hello"],
+         "responses": ["Hi", "Hello", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "2",
+         "patterns": ["Who are you","What is you name","Do you have a name"],
+         "responses": ["Hi, I'm Buzz Woman Bot", "My name is Buzz Woman Bot", "I'm Buzz Woman Bot"],
+         "context_set": ""
+        },
+        {"tag": "3",
+        "patterns": ["What is Buzz Woman","What is Buzzwoman","About Buzz Woman"],
+        "responses": ["Buzz Women is the global movement by and for women. We bring transformation within reach. And enable women to ignite their personal and collective power."],
+        "context_set": ""
+        },
+        {"tag": "4",
+        "patterns": ["Can you help me to earn money","I want to earn money"],
+        "responses": ["Yes, I'm here to help you. How much do you want to earn?", "Yes, I'm here to help you. How much is your expectation?"],
+        "context_set": ""
+        },
+        {"tag": "5",
+         "patterns": ["I want to earn 12345 money", "I want to earn above 12345"],
+         "responses": ["Are you currently working"],
+         "context_set": ""
+        },
+        {"tag": "6",
+         "patterns": ["No, I'm not working"],
+         "responses": ["Ok, Do you have any idea or you want to explore/want some suggestions?"],
+         "context_set": ""
+        },
+        {"tag": "7",
+         "patterns": ["Yes, I'm working at abcd"],
+        "responses": ["Ok great! Do you have any idea or you want to explore/want some suggestions?"],
+        "context_set": ""
+        },
+        {"tag": "8",
+         "patterns": ["Yes I have an idea"],
+         "responses": ["Great! Tell me about your idea"],
+         "context_set": ""
+        },
+        {"tag": "9",
+        "patterns": ["No I don't have an idea"],
+        "responses": ["What are you good at?", "What are your skills?", "What are your interests?"],
+        "context_set": ""
+        },
+        {"tag": "10",
+        "patterns": ["I'm good at tailoring", "tailor"],
+        "responses": ["Ohh that's amazing! Do you have any knowledge of fabric and style?"],
+        "context_set": ""
+        },
+        {"tag": "11",
+        "patterns": ["I have some knowledge"],
+        "responses": ["Do you know how to stich, zigzag or staright?"],
+        "context_set": ""
+        },
+        {"tag": "12",
+        "patterns": ["Yes I know"],
+        "responses": ["Are you aware of measurements?"],
+        "context_set": ""
+        },
+        {"tag": "13",
+        "patterns": ["I'm aware"],
+        "responses": ["How many tailors are already present in your area?"],
+        "context_set": ""
+        },
+        {"tag": "13",
+        "patterns": ["Maybe 4-5 tailors"],
+        "responses": ["There are less chances for you to earn money through this as there are plenty present. Relax! You can think about your other interests"],
+        "context_set": ""
+        },
+        {"tag": "14",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."],
+         "context_set": ""
+        },
+        {"tag": "15",
+         "patterns": ["Thank you"],
+         "responses": ["You are welcome"],
+         "context_set": ""
+        }
+   ]
+}
